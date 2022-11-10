@@ -3,6 +3,15 @@
 * [Datasheet PIC16f887](http://ww1.microchip.com/downloads/en/devicedoc/41291d.pdf
 )
 
+* [Datasheet MFRC522](https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf
+)
+
+* [Datasheet HC-SR04](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
+)
+
+* [Datasheet HC-SR501](https://www.epitran.it/ebayDrive/datasheet/44.pdf
+)
+
 # Tabela de alocação de pinos
 
 ***
