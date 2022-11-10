@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="2"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Z:/Industrial_safety/Industrial_Safety.X/main.c</file>
+            <file>file:/Z:/Industrial_safety/Industrial_Safety.X/sensors.c</file>
+            <file>file:/Z:/Industrial_safety/Industrial_Safety.X/fsm_rfid.c</file>
+            <file>file:/Z:/Industrial_safety/Industrial_Safety.X/interrupt.c</file>
+            <file>file:/Z:/Industrial_safety/Industrial_Safety.X/sensors.h</file>
+            <file>file:/Z:/Industrial_safety/Industrial_Safety.X/spi.h</file>
+        </group>
+    </open-files>
+</project-private>
