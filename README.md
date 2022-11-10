@@ -9,7 +9,7 @@
 * [Datasheet Sensor Ultrassônico HC-SR04](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
 )
 
-* [Datasheet Sensor de Movimento HC-SR501] (https://www.epitran.it/ebayDrive/datasheet/44.pdf
+* [Datasheet Sensor de Movimento HC-SR501](https://www.epitran.it/ebayDrive/datasheet/44.pdf
 )
 
 # Tabela de alocação de pinos
