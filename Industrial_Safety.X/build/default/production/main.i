@@ -2649,7 +2649,7 @@ void main (void)
 
 
 
-    int perigo = 100;
+    int perigo = 110;
 
     char state = 0;
 
@@ -2721,7 +2721,9 @@ void main (void)
                     lcd_print(0,0,"TAG :");
 
                     hex2Ascii(UID,uidAsci,6);
-                    lcd_print(0,0,uidAsci);
+
+                    lcd_print(0,0,"Gabriel Lacerda");
+
 
                     delay_ms(5000);
 
@@ -2802,8 +2804,7 @@ void main (void)
                     lcd_clr();
                     state = 1;
                     break;
-
         }
-# 221 "main.c"
     }
+# 225 "main.c"
 }

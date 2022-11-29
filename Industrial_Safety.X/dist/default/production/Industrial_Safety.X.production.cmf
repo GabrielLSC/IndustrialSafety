@@ -16,7 +16,7 @@ cinit CODE 0 13 13 4C 2
 text1 CODE 0 8D9 8D9 15 2
 text2 CODE 0 8C4 8C4 15 2
 text3 CODE 0 A29 A29 31 2
-text4 CODE 0 87B 87B E 2
+text4 CODE 0 17F2 17F2 E 2
 text5 CODE 0 96E 96E 1E 2
 text6 CODE 0 935 935 1C 2
 text7 CODE 0 9FA 9FA 2F 2
@@ -26,14 +26,14 @@ text10 CODE 0 362 362 1F3 2
 text11 CODE 0 A8C A8C 32 2
 text12 CODE 0 D11 D11 77 2
 text13 CODE 0 889 889 13 2
-text14 CODE 0 17F3 17F3 D 2
+text14 CODE 0 17E5 17E5 D 2
 text15 CODE 0 A5A A5A 32 2
 text16 CODE 0 C72 C72 4F 2
 text17 CODE 0 C27 C27 4B 2
 text18 CODE 0 8AF 8AF 15 2
 text19 CODE 0 B99 B99 44 2
 text20 CODE 0 7AB 7AB 50 2
-text21 CODE 0 17DA 17DA 7 2
+text21 CODE 0 17CC 17CC 7 2
 text22 CODE 0 F56 F56 AA 2
 text23 CODE 0 D88 D88 8D 2
 text24 CODE 0 E15 E15 9B 2
@@ -44,7 +44,7 @@ text28 CODE 0 951 951 1D 2
 text29 CODE 0 9AB 9AB 24 2
 text30 CODE 0 AF1 AF1 37 2
 text31 CODE 0 ABE ABE 33 2
-text32 CODE 0 17E9 17E9 A 2
+text32 CODE 0 17DB 17DB A 2
 text33 CODE 0 6C4 6C4 E7 2
 text34 CODE 0 B5F B5F 3A 2
 text35 CODE 0 CC1 CC1 50 2
@@ -62,14 +62,14 @@ idataBANK0 CODE 0 7FB 7FB 5 2
 idataBANK1 CODE 0 91C 91C 19 2
 idataBANK2 CODE 0 B28 B28 37 2
 idataBANK3 CODE 0 9CF 9CF 2B 2
-strings STRING 0 800 800 76 2
+strings STRING 0 800 800 86 2
 dataBANK0 BANK0 1 51 51 5 1
 dataBANK1 BANK1 1 CF CF 19 1
 dataBANK2 BANK2 1 110 110 37 1
 dataBANK3 BANK3 1 190 190 2B 1
-clrtext CODE 0 17E1 17E1 8 2
+clrtext CODE 0 17D3 17D3 8 2
 bssCOMMON COMMON 1 7A 7A 4 1
-$C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o
+$C:\Users\211934~3.000\AppData\Local\Temp\s8po.o
 reset_vec CODE 0 0 0 3 2
 end_init CODE 0 10 10 3 2
 config CONFIG 0 2007 2007 2 2
@@ -88,18 +88,18 @@ BANK1 EC-EF 1
 BANK2 147-16F 1
 BANK3 1DE-1EF 1
 CONST 3-3 2
-CONST 876-87A 2
-CONST 1000-17D9 2
+CONST 886-888 2
+CONST 1000-17CB 2
 CONST 1800-1FFF 2
 ENTRY 3-3 2
-ENTRY 876-87A 2
-ENTRY 1000-17D9 2
+ENTRY 886-888 2
+ENTRY 1000-17CB 2
 ENTRY 1800-1FFF 2
 IDLOC 2000-2003 2
 STACK 147-16F 1
 CODE 3-3 2
-CODE 876-87A 2
-CODE 1000-17D9 2
+CODE 886-888 2
+CODE 1000-17CB 2
 CODE 1800-1FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
@@ -107,12 +107,12 @@ SFR2 100-10F 1
 SFR3 180-18F 1
 EEDATA 2100-21FF 2
 STRCODE 3-3 2
-STRCODE 876-87A 2
-STRCODE 1000-17D9 2
+STRCODE 886-888 2
+STRCODE 1000-17CB 2
 STRCODE 1800-1FFF 2
 STRING 3-3 2
-STRING 876-87A 2
-STRING 1000-17D9 2
+STRING 886-888 2
+STRING 1000-17CB 2
 STRING 1800-1FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -128,63 +128,63 @@ STRING 1800-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Industrial_Safety.X.production.o
-13 cinit CODE >2327:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-13 cinit CODE >2330:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-13 cinit CODE >2464:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-14 cinit CODE >2465:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-15 cinit CODE >2466:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-16 cinit CODE >2467:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-17 cinit CODE >2468:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-18 cinit CODE >2469:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-19 cinit CODE >2470:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-1A cinit CODE >2471:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-1B cinit CODE >2472:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-1C cinit CODE >2473:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-21 cinit CODE >2477:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-22 cinit CODE >2478:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-23 cinit CODE >2479:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-24 cinit CODE >2480:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-25 cinit CODE >2481:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-26 cinit CODE >2482:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-27 cinit CODE >2483:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-28 cinit CODE >2484:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-29 cinit CODE >2485:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-2E cinit CODE >2489:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-2F cinit CODE >2490:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-30 cinit CODE >2491:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-31 cinit CODE >2492:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-32 cinit CODE >2493:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-33 cinit CODE >2494:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-34 cinit CODE >2495:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-35 cinit CODE >2496:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-36 cinit CODE >2497:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-37 cinit CODE >2498:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-3C cinit CODE >2502:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-3D cinit CODE >2503:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-3E cinit CODE >2504:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-3F cinit CODE >2505:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-40 cinit CODE >2506:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-41 cinit CODE >2507:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-42 cinit CODE >2508:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-43 cinit CODE >2509:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-44 cinit CODE >2510:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-49 cinit CODE >2529:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-4A cinit CODE >2530:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-4B cinit CODE >2531:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-4C cinit CODE >2532:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-4D cinit CODE >2533:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-4E cinit CODE >2534:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-4F cinit CODE >2537:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-50 cinit CODE >2538:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-51 cinit CODE >2539:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-52 cinit CODE >2540:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-57 cinit CODE >2543:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-58 cinit CODE >2544:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-59 cinit CODE >2545:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-5A cinit CODE >2546:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-5B cinit CODE >2552:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-5B cinit CODE >2554:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-5C cinit CODE >2555:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
+13 cinit CODE >2346:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+13 cinit CODE >2349:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+13 cinit CODE >2483:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+14 cinit CODE >2484:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+15 cinit CODE >2485:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+16 cinit CODE >2486:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+17 cinit CODE >2487:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+18 cinit CODE >2488:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+19 cinit CODE >2489:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+1A cinit CODE >2490:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+1B cinit CODE >2491:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+1C cinit CODE >2492:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+21 cinit CODE >2496:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+22 cinit CODE >2497:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+23 cinit CODE >2498:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+24 cinit CODE >2499:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+25 cinit CODE >2500:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+26 cinit CODE >2501:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+27 cinit CODE >2502:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+28 cinit CODE >2503:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+29 cinit CODE >2504:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+2E cinit CODE >2508:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+2F cinit CODE >2509:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+30 cinit CODE >2510:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+31 cinit CODE >2511:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+32 cinit CODE >2512:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+33 cinit CODE >2513:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+34 cinit CODE >2514:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+35 cinit CODE >2515:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+36 cinit CODE >2516:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+37 cinit CODE >2517:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+3C cinit CODE >2521:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+3D cinit CODE >2522:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+3E cinit CODE >2523:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+3F cinit CODE >2524:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+40 cinit CODE >2525:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+41 cinit CODE >2526:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+42 cinit CODE >2527:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+43 cinit CODE >2528:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+44 cinit CODE >2529:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+49 cinit CODE >2548:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+4A cinit CODE >2549:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+4B cinit CODE >2550:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+4C cinit CODE >2551:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+4D cinit CODE >2552:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+4E cinit CODE >2553:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+4F cinit CODE >2556:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+50 cinit CODE >2557:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+51 cinit CODE >2558:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+52 cinit CODE >2559:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+57 cinit CODE >2562:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+58 cinit CODE >2563:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+59 cinit CODE >2564:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+5A cinit CODE >2565:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+5B cinit CODE >2571:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+5B cinit CODE >2573:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+5C cinit CODE >2574:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
 4 intentry CODE >15:Z:\Industrial_safety\Industrial_Safety.X\interrupt.c
 EB0 text36 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\aldiv.c
 EB0 text36 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\aldiv.c
@@ -257,11 +257,11 @@ B98 text34 CODE >31:Z:\Industrial_safety\Industrial_Safety.X\tmr_tick.c
 79A text33 CODE >43:Z:\Industrial_safety\Industrial_Safety.X\interrupt.c
 7A0 text33 CODE >45:Z:\Industrial_safety\Industrial_Safety.X\interrupt.c
 7A0 text33 CODE >46:Z:\Industrial_safety\Industrial_Safety.X\interrupt.c
-17E9 text32 CODE >17:Z:\Industrial_safety\Industrial_Safety.X\spi.c
-17E9 text32 CODE >19:Z:\Industrial_safety\Industrial_Safety.X\spi.c
-17EC text32 CODE >20:Z:\Industrial_safety\Industrial_Safety.X\spi.c
-17EF text32 CODE >21:Z:\Industrial_safety\Industrial_Safety.X\spi.c
-17F2 text32 CODE >22:Z:\Industrial_safety\Industrial_Safety.X\spi.c
+17DB text32 CODE >17:Z:\Industrial_safety\Industrial_Safety.X\spi.c
+17DB text32 CODE >19:Z:\Industrial_safety\Industrial_Safety.X\spi.c
+17DE text32 CODE >20:Z:\Industrial_safety\Industrial_Safety.X\spi.c
+17E1 text32 CODE >21:Z:\Industrial_safety\Industrial_Safety.X\spi.c
+17E4 text32 CODE >22:Z:\Industrial_safety\Industrial_Safety.X\spi.c
 ABE text31 CODE >80:Z:\Industrial_safety\Industrial_Safety.X\spi.c
 ABE text31 CODE >83:Z:\Industrial_safety\Industrial_Safety.X\spi.c
 AC9 text31 CODE >85:Z:\Industrial_safety\Industrial_Safety.X\spi.c
@@ -392,9 +392,9 @@ FF4 text22 CODE >96:Z:\Industrial_safety\Industrial_Safety.X\lcd.c
 FF4 text22 CODE >97:Z:\Industrial_safety\Industrial_Safety.X\lcd.c
 FFC text22 CODE >98:Z:\Industrial_safety\Industrial_Safety.X\lcd.c
 FFF text22 CODE >99:Z:\Industrial_safety\Industrial_Safety.X\lcd.c
-17DA text21 CODE >166:Z:\Industrial_safety\Industrial_Safety.X\lcd.c
-17DA text21 CODE >168:Z:\Industrial_safety\Industrial_Safety.X\lcd.c
-17E0 text21 CODE >169:Z:\Industrial_safety\Industrial_Safety.X\lcd.c
+17CC text21 CODE >166:Z:\Industrial_safety\Industrial_Safety.X\lcd.c
+17CC text21 CODE >168:Z:\Industrial_safety\Industrial_Safety.X\lcd.c
+17D2 text21 CODE >169:Z:\Industrial_safety\Industrial_Safety.X\lcd.c
 7AB text20 CODE >124:Z:\Industrial_safety\Industrial_Safety.X\lcd.c
 7AB text20 CODE >126:Z:\Industrial_safety\Industrial_Safety.X\lcd.c
 7B9 text20 CODE >132:Z:\Industrial_safety\Industrial_Safety.X\lcd.c
@@ -459,9 +459,9 @@ A79 text15 CODE >58:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
 A80 text15 CODE >59:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
 A88 text15 CODE >60:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
 A8B text15 CODE >61:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
-17F3 text14 CODE >63:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
-17F3 text14 CODE >65:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
-17FF text14 CODE >66:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
+17E5 text14 CODE >63:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
+17E5 text14 CODE >65:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
+17F1 text14 CODE >66:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
 889 text13 CODE >73:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
 889 text13 CODE >75:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
 892 text13 CODE >76:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
@@ -633,13 +633,13 @@ A28 text7 CODE >72:Z:\Industrial_safety\Industrial_Safety.X\sensors.c
 979 text5 CODE >45:Z:\Industrial_safety\Industrial_Safety.X\spi.c
 980 text5 CODE >47:Z:\Industrial_safety\Industrial_Safety.X\spi.c
 98B text5 CODE >48:Z:\Industrial_safety\Industrial_Safety.X\spi.c
-87B text4 CODE >24:Z:\Industrial_safety\Industrial_Safety.X\spi.c
-87B text4 CODE >26:Z:\Industrial_safety\Industrial_Safety.X\spi.c
-87E text4 CODE >27:Z:\Industrial_safety\Industrial_Safety.X\spi.c
-881 text4 CODE >28:Z:\Industrial_safety\Industrial_Safety.X\spi.c
-882 text4 CODE >29:Z:\Industrial_safety\Industrial_Safety.X\spi.c
-885 text4 CODE >30:Z:\Industrial_safety\Industrial_Safety.X\spi.c
-888 text4 CODE >31:Z:\Industrial_safety\Industrial_Safety.X\spi.c
+17F2 text4 CODE >24:Z:\Industrial_safety\Industrial_Safety.X\spi.c
+17F2 text4 CODE >26:Z:\Industrial_safety\Industrial_Safety.X\spi.c
+17F5 text4 CODE >27:Z:\Industrial_safety\Industrial_Safety.X\spi.c
+17F8 text4 CODE >28:Z:\Industrial_safety\Industrial_Safety.X\spi.c
+17F9 text4 CODE >29:Z:\Industrial_safety\Industrial_Safety.X\spi.c
+17FC text4 CODE >30:Z:\Industrial_safety\Industrial_Safety.X\spi.c
+17FF text4 CODE >31:Z:\Industrial_safety\Industrial_Safety.X\spi.c
 A29 text3 CODE >703:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
 A2C text3 CODE >705:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
 A2D text3 CODE >707:Z:\Industrial_safety\Industrial_Safety.X\rfid.c
@@ -714,97 +714,97 @@ F0 maintext CODE >66:Z:\Industrial_safety\Industrial_Safety.X\main.c
 169 maintext CODE >96:Z:\Industrial_safety\Industrial_Safety.X\main.c
 16E maintext CODE >98:Z:\Industrial_safety\Industrial_Safety.X\main.c
 17B maintext CODE >100:Z:\Industrial_safety\Industrial_Safety.X\main.c
-18E maintext CODE >101:Z:\Industrial_safety\Industrial_Safety.X\main.c
-19B maintext CODE >103:Z:\Industrial_safety\Industrial_Safety.X\main.c
-1A6 maintext CODE >105:Z:\Industrial_safety\Industrial_Safety.X\main.c
-1B7 maintext CODE >107:Z:\Industrial_safety\Industrial_Safety.X\main.c
-1BF maintext CODE >108:Z:\Industrial_safety\Industrial_Safety.X\main.c
-1C0 maintext CODE >109:Z:\Industrial_safety\Industrial_Safety.X\main.c
-1C1 maintext CODE >110:Z:\Industrial_safety\Industrial_Safety.X\main.c
+18E maintext CODE >102:Z:\Industrial_safety\Industrial_Safety.X\main.c
+19B maintext CODE >105:Z:\Industrial_safety\Industrial_Safety.X\main.c
+1A6 maintext CODE >107:Z:\Industrial_safety\Industrial_Safety.X\main.c
+1B7 maintext CODE >109:Z:\Industrial_safety\Industrial_Safety.X\main.c
+1BF maintext CODE >110:Z:\Industrial_safety\Industrial_Safety.X\main.c
+1C0 maintext CODE >111:Z:\Industrial_safety\Industrial_Safety.X\main.c
 1C1 maintext CODE >112:Z:\Industrial_safety\Industrial_Safety.X\main.c
-1C9 maintext CODE >113:Z:\Industrial_safety\Industrial_Safety.X\main.c
-1CA maintext CODE >114:Z:\Industrial_safety\Industrial_Safety.X\main.c
-1CB maintext CODE >117:Z:\Industrial_safety\Industrial_Safety.X\main.c
-1CB maintext CODE >118:Z:\Industrial_safety\Industrial_Safety.X\main.c
-1D0 maintext CODE >119:Z:\Industrial_safety\Industrial_Safety.X\main.c
-1E0 maintext CODE >120:Z:\Industrial_safety\Industrial_Safety.X\main.c
-1F0 maintext CODE >121:Z:\Industrial_safety\Industrial_Safety.X\main.c
-1FB maintext CODE >122:Z:\Industrial_safety\Industrial_Safety.X\main.c
-200 maintext CODE >123:Z:\Industrial_safety\Industrial_Safety.X\main.c
-20D maintext CODE >124:Z:\Industrial_safety\Industrial_Safety.X\main.c
-215 maintext CODE >125:Z:\Industrial_safety\Industrial_Safety.X\main.c
-216 maintext CODE >129:Z:\Industrial_safety\Industrial_Safety.X\main.c
-216 maintext CODE >130:Z:\Industrial_safety\Industrial_Safety.X\main.c
-21B maintext CODE >131:Z:\Industrial_safety\Industrial_Safety.X\main.c
-22B maintext CODE >132:Z:\Industrial_safety\Industrial_Safety.X\main.c
-23B maintext CODE >133:Z:\Industrial_safety\Industrial_Safety.X\main.c
-246 maintext CODE >134:Z:\Industrial_safety\Industrial_Safety.X\main.c
-24B maintext CODE >135:Z:\Industrial_safety\Industrial_Safety.X\main.c
-24F maintext CODE >136:Z:\Industrial_safety\Industrial_Safety.X\main.c
-250 maintext CODE >138:Z:\Industrial_safety\Industrial_Safety.X\main.c
+1C1 maintext CODE >114:Z:\Industrial_safety\Industrial_Safety.X\main.c
+1C9 maintext CODE >115:Z:\Industrial_safety\Industrial_Safety.X\main.c
+1CA maintext CODE >116:Z:\Industrial_safety\Industrial_Safety.X\main.c
+1CB maintext CODE >119:Z:\Industrial_safety\Industrial_Safety.X\main.c
+1CB maintext CODE >120:Z:\Industrial_safety\Industrial_Safety.X\main.c
+1D0 maintext CODE >121:Z:\Industrial_safety\Industrial_Safety.X\main.c
+1E0 maintext CODE >122:Z:\Industrial_safety\Industrial_Safety.X\main.c
+1F0 maintext CODE >123:Z:\Industrial_safety\Industrial_Safety.X\main.c
+1FB maintext CODE >124:Z:\Industrial_safety\Industrial_Safety.X\main.c
+200 maintext CODE >125:Z:\Industrial_safety\Industrial_Safety.X\main.c
+20D maintext CODE >126:Z:\Industrial_safety\Industrial_Safety.X\main.c
+215 maintext CODE >127:Z:\Industrial_safety\Industrial_Safety.X\main.c
+216 maintext CODE >131:Z:\Industrial_safety\Industrial_Safety.X\main.c
+216 maintext CODE >132:Z:\Industrial_safety\Industrial_Safety.X\main.c
+21B maintext CODE >133:Z:\Industrial_safety\Industrial_Safety.X\main.c
+22B maintext CODE >134:Z:\Industrial_safety\Industrial_Safety.X\main.c
+23B maintext CODE >135:Z:\Industrial_safety\Industrial_Safety.X\main.c
+246 maintext CODE >136:Z:\Industrial_safety\Industrial_Safety.X\main.c
+24B maintext CODE >137:Z:\Industrial_safety\Industrial_Safety.X\main.c
+24F maintext CODE >138:Z:\Industrial_safety\Industrial_Safety.X\main.c
 250 maintext CODE >140:Z:\Industrial_safety\Industrial_Safety.X\main.c
-255 maintext CODE >141:Z:\Industrial_safety\Industrial_Safety.X\main.c
-25F maintext CODE >143:Z:\Industrial_safety\Industrial_Safety.X\main.c
-269 maintext CODE >145:Z:\Industrial_safety\Industrial_Safety.X\main.c
-271 maintext CODE >146:Z:\Industrial_safety\Industrial_Safety.X\main.c
-272 maintext CODE >147:Z:\Industrial_safety\Industrial_Safety.X\main.c
+250 maintext CODE >142:Z:\Industrial_safety\Industrial_Safety.X\main.c
+255 maintext CODE >143:Z:\Industrial_safety\Industrial_Safety.X\main.c
+25F maintext CODE >145:Z:\Industrial_safety\Industrial_Safety.X\main.c
+269 maintext CODE >147:Z:\Industrial_safety\Industrial_Safety.X\main.c
+271 maintext CODE >148:Z:\Industrial_safety\Industrial_Safety.X\main.c
 272 maintext CODE >149:Z:\Industrial_safety\Industrial_Safety.X\main.c
-27B maintext CODE >150:Z:\Industrial_safety\Industrial_Safety.X\main.c
+272 maintext CODE >151:Z:\Industrial_safety\Industrial_Safety.X\main.c
 27B maintext CODE >152:Z:\Industrial_safety\Industrial_Safety.X\main.c
-2B7 maintext CODE >154:Z:\Industrial_safety\Industrial_Safety.X\main.c
-2BE maintext CODE >155:Z:\Industrial_safety\Industrial_Safety.X\main.c
+27B maintext CODE >154:Z:\Industrial_safety\Industrial_Safety.X\main.c
+2B7 maintext CODE >156:Z:\Industrial_safety\Industrial_Safety.X\main.c
 2BE maintext CODE >157:Z:\Industrial_safety\Industrial_Safety.X\main.c
-2BF maintext CODE >159:Z:\Industrial_safety\Industrial_Safety.X\main.c
-2BF maintext CODE >160:Z:\Industrial_safety\Industrial_Safety.X\main.c
-2C4 maintext CODE >161:Z:\Industrial_safety\Industrial_Safety.X\main.c
-2C7 maintext CODE >162:Z:\Industrial_safety\Industrial_Safety.X\main.c
-2D7 maintext CODE >163:Z:\Industrial_safety\Industrial_Safety.X\main.c
-2DF maintext CODE >164:Z:\Industrial_safety\Industrial_Safety.X\main.c
-2E0 maintext CODE >166:Z:\Industrial_safety\Industrial_Safety.X\main.c
-2E0 maintext CODE >167:Z:\Industrial_safety\Industrial_Safety.X\main.c
-2E5 maintext CODE >168:Z:\Industrial_safety\Industrial_Safety.X\main.c
-2E8 maintext CODE >169:Z:\Industrial_safety\Industrial_Safety.X\main.c
-2F8 maintext CODE >170:Z:\Industrial_safety\Industrial_Safety.X\main.c
-300 maintext CODE >171:Z:\Industrial_safety\Industrial_Safety.X\main.c
-301 maintext CODE >173:Z:\Industrial_safety\Industrial_Safety.X\main.c
-301 maintext CODE >174:Z:\Industrial_safety\Industrial_Safety.X\main.c
-306 maintext CODE >175:Z:\Industrial_safety\Industrial_Safety.X\main.c
-309 maintext CODE >176:Z:\Industrial_safety\Industrial_Safety.X\main.c
-30E maintext CODE >177:Z:\Industrial_safety\Industrial_Safety.X\main.c
-31E maintext CODE >178:Z:\Industrial_safety\Industrial_Safety.X\main.c
-329 maintext CODE >179:Z:\Industrial_safety\Industrial_Safety.X\main.c
-32E maintext CODE >180:Z:\Industrial_safety\Industrial_Safety.X\main.c
-332 maintext CODE >181:Z:\Industrial_safety\Industrial_Safety.X\main.c
-333 maintext CODE >183:Z:\Industrial_safety\Industrial_Safety.X\main.c
-35E maintext CODE >221:Z:\Industrial_safety\Industrial_Safety.X\main.c
-35F maintext CODE >222:Z:\Industrial_safety\Industrial_Safety.X\main.c
-17E1 clrtext CODE >2516:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-17E1 clrtext CODE >2517:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-17E2 clrtext CODE >2518:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-17E2 clrtext CODE >2519:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-17E3 clrtext CODE >2520:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-17E4 clrtext CODE >2521:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-17E5 clrtext CODE >2522:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-17E6 clrtext CODE >2523:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-17E7 clrtext CODE >2524:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-17E8 clrtext CODE >2525:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-89C inittext CODE >2438:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-89C inittext CODE >2439:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-89D inittext CODE >2440:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-89E inittext CODE >2441:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-89F inittext CODE >2442:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-8A0 inittext CODE >2449:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-8A0 inittext CODE >2450:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-8A5 inittext CODE >2451:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-8A6 inittext CODE >2452:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-8A7 inittext CODE >2453:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-8A8 inittext CODE >2454:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-8A9 inittext CODE >2455:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-8AA inittext CODE >2456:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-8AB inittext CODE >2457:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-8AC inittext CODE >2458:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-8AD inittext CODE >2459:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
-8AE inittext CODE >2460:C:\Users\211934~3.000\AppData\Local\Temp\sdfg.
+2BE maintext CODE >159:Z:\Industrial_safety\Industrial_Safety.X\main.c
+2BF maintext CODE >161:Z:\Industrial_safety\Industrial_Safety.X\main.c
+2BF maintext CODE >162:Z:\Industrial_safety\Industrial_Safety.X\main.c
+2C4 maintext CODE >163:Z:\Industrial_safety\Industrial_Safety.X\main.c
+2C7 maintext CODE >164:Z:\Industrial_safety\Industrial_Safety.X\main.c
+2D7 maintext CODE >165:Z:\Industrial_safety\Industrial_Safety.X\main.c
+2DF maintext CODE >166:Z:\Industrial_safety\Industrial_Safety.X\main.c
+2E0 maintext CODE >168:Z:\Industrial_safety\Industrial_Safety.X\main.c
+2E0 maintext CODE >169:Z:\Industrial_safety\Industrial_Safety.X\main.c
+2E5 maintext CODE >170:Z:\Industrial_safety\Industrial_Safety.X\main.c
+2E8 maintext CODE >171:Z:\Industrial_safety\Industrial_Safety.X\main.c
+2F8 maintext CODE >172:Z:\Industrial_safety\Industrial_Safety.X\main.c
+300 maintext CODE >173:Z:\Industrial_safety\Industrial_Safety.X\main.c
+301 maintext CODE >175:Z:\Industrial_safety\Industrial_Safety.X\main.c
+301 maintext CODE >176:Z:\Industrial_safety\Industrial_Safety.X\main.c
+306 maintext CODE >177:Z:\Industrial_safety\Industrial_Safety.X\main.c
+309 maintext CODE >178:Z:\Industrial_safety\Industrial_Safety.X\main.c
+30E maintext CODE >179:Z:\Industrial_safety\Industrial_Safety.X\main.c
+31E maintext CODE >180:Z:\Industrial_safety\Industrial_Safety.X\main.c
+329 maintext CODE >181:Z:\Industrial_safety\Industrial_Safety.X\main.c
+32E maintext CODE >182:Z:\Industrial_safety\Industrial_Safety.X\main.c
+332 maintext CODE >183:Z:\Industrial_safety\Industrial_Safety.X\main.c
+333 maintext CODE >184:Z:\Industrial_safety\Industrial_Safety.X\main.c
+35E maintext CODE >185:Z:\Industrial_safety\Industrial_Safety.X\main.c
+35F maintext CODE >225:Z:\Industrial_safety\Industrial_Safety.X\main.c
+17D3 clrtext CODE >2535:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+17D3 clrtext CODE >2536:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+17D4 clrtext CODE >2537:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+17D4 clrtext CODE >2538:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+17D5 clrtext CODE >2539:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+17D6 clrtext CODE >2540:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+17D7 clrtext CODE >2541:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+17D8 clrtext CODE >2542:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+17D9 clrtext CODE >2543:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+17DA clrtext CODE >2544:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+89C inittext CODE >2457:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+89C inittext CODE >2458:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+89D inittext CODE >2459:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+89E inittext CODE >2460:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+89F inittext CODE >2461:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+8A0 inittext CODE >2468:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+8A0 inittext CODE >2469:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+8A5 inittext CODE >2470:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+8A6 inittext CODE >2471:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+8A7 inittext CODE >2472:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+8A8 inittext CODE >2473:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+8A9 inittext CODE >2474:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+8AA inittext CODE >2475:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+8AB inittext CODE >2476:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+8AC inittext CODE >2477:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+8AD inittext CODE >2478:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
+8AE inittext CODE >2479:C:\Users\211934~3.000\AppData\Local\Temp\s8po.
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -847,7 +847,7 @@ _T1CONbits 10 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
 _spiSoftIniciar 12DC 0 CODE 0 text5 dist/default/production\Industrial_Safety.X.production.o
 __Hstrings 0 0 ABS 0 strings -
 _C2ON 847 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o
+___sp 0 0 STACK 2 stack C:\Users\211934~3.000\AppData\Local\Temp\s8po.o
 _dist E8 0 BANK1 1 bssBANK1 dist/default/production\Industrial_Safety.X.production.o
 _main BE 0 CODE 0 maintext dist/default/production\Industrial_Safety.X.production.o
 _time 49 0 BANK0 1 bssBANK0 dist/default/production\Industrial_Safety.X.production.o
@@ -858,7 +858,7 @@ _rfid_read_wait 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.producti
 tagTxCmd@data AA 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 tagTxCmd@dlen AC 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 tagTxCmd@rlen AF 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
-start 20 0 CODE 0 init C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o
+start 20 0 CODE 0 init C:\Users\211934~3.000\AppData\Local\Temp\s8po.o
 __size_of___aldiv 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
 __CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
@@ -866,7 +866,7 @@ __HbssCOMMON 0 0 ABS 0 bssCOMMON -
 MFRC522_ToCard@lastBits BB 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 tagTxCmd@irqEn B6 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 ?___lmul 70 0 COMMON 1 cstackCOMMON dist/default/production\Industrial_Safety.X.production.o
-_spiSoftClk 2FD2 0 CODE 0 text32 dist/default/production\Industrial_Safety.X.production.o
+_spiSoftClk 2FB6 0 CODE 0 text32 dist/default/production\Industrial_Safety.X.production.o
 mfrc522ClrBit@mascara A6 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 __LidataBANK0 0 0 ABS 0 idataBANK0 -
 __LidataBANK1 0 0 ABS 0 idataBANK1 -
@@ -876,15 +876,15 @@ __Hpowerup 0 0 CODE 0 powerup -
 _rfid_display_wait 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
 procura_tag@len C1 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 __end_of_lcd_print 18E4 0 CODE 0 text17 dist/default/production\Industrial_Safety.X.production.o
-_mfrc522AntOn 2FE6 0 CODE 0 text14 dist/default/production\Industrial_Safety.X.production.o
+_mfrc522AntOn 2FCA 0 CODE 0 text14 dist/default/production\Industrial_Safety.X.production.o
 _mfrc522Iniciar 1A22 0 CODE 0 text12 dist/default/production\Industrial_Safety.X.production.o
 __size_of_prs_detect 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\211934~3.000\AppData\Local\Temp\s8po.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\211934~3.000\AppData\Local\Temp\s8po.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\211934~3.000\AppData\Local\Temp\s8po.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\211934~3.000\AppData\Local\Temp\s8po.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\211934~3.000\AppData\Local\Temp\s8po.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\211934~3.000\AppData\Local\Temp\s8po.o
 __size_of_lcd_print 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 ___aldiv@divisor 24 0 BANK0 1 cstackBANK0 dist/default/production\Industrial_Safety.X.production.o
@@ -906,7 +906,7 @@ MFRC522_Wr@addr AA 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safe
 tagTxCmd@lastBits B7 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 _ANSELH 189 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
 MFRC522_Wr@value A8 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
-__end_of_lcd_clr 2FC2 0 CODE 0 text21 dist/default/production\Industrial_Safety.X.production.o
+__end_of_lcd_clr 2FA6 0 CODE 0 text21 dist/default/production\Industrial_Safety.X.production.o
 __size_of_spi_hardware_disable 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
 mfrc522ClrBit@lido A9 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 _EECON1bits 18C 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
@@ -916,7 +916,7 @@ lcd_print@pos AA 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety
 lcd_print@str A7 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 spiSoftTxDat@reg A3 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 __end_of___lmul 1A22 0 CODE 0 text35 dist/default/production\Industrial_Safety.X.production.o
-__end_of_spiSoftClk 2FE6 0 CODE 0 text32 dist/default/production\Industrial_Safety.X.production.o
+__end_of_spiSoftClk 2FCA 0 CODE 0 text32 dist/default/production\Industrial_Safety.X.production.o
 _mfrc522ClrBit 1518 0 CODE 0 text11 dist/default/production\Industrial_Safety.X.production.o
 __size_of_mfrc522AntOn 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
 _rfid_read 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
@@ -935,9 +935,9 @@ __size_of_MFRC522_Rd 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.pro
 __size_of_MFRC522_Wr 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
 _uts_trigger 11B2 0 CODE 0 text1 dist/default/production\Industrial_Safety.X.production.o
 __end_of_mfrc522Iniciar 1B10 0 CODE 0 text12 dist/default/production\Industrial_Safety.X.production.o
-__end_of_spi_hardware_disable 1112 0 CODE 0 text4 dist/default/production\Industrial_Safety.X.production.o
+__end_of_spi_hardware_disable 3000 0 CODE 0 text4 dist/default/production\Industrial_Safety.X.production.o
 __end_of___aldiv 1EAC 0 CODE 0 text36 dist/default/production\Industrial_Safety.X.production.o
-__end_of_mfrc522AntOn 3000 0 CODE 0 text14 dist/default/production\Industrial_Safety.X.production.o
+__end_of_mfrc522AntOn 2FE4 0 CODE 0 text14 dist/default/production\Industrial_Safety.X.production.o
 spiSoftTxCmd@a A4 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 spiSoftTxDat@a A4 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 hex2Ascii@strOut A2 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
@@ -953,7 +953,7 @@ ___aldiv@quotient 2E 0 BANK0 1 cstackBANK0 dist/default/production\Industrial_Sa
 mfrc522SetBit@lido A9 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 _sensors_init 126A 0 CODE 0 text6 dist/default/production\Industrial_Safety.X.production.o
 _tagTxCmd 6C4 0 CODE 0 text10 dist/default/production\Industrial_Safety.X.production.o
-clear_ram0 2FC2 0 CODE 0 clrtext dist/default/production\Industrial_Safety.X.production.o
+clear_ram0 2FA6 0 CODE 0 clrtext dist/default/production\Industrial_Safety.X.production.o
 __pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\Industrial_Safety.X.production.o
 __pcstackBANK1 A0 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 __pcstackBANK3 1BB 0 BANK3 1 cstackBANK3 dist/default/production\Industrial_Safety.X.production.o
@@ -965,7 +965,7 @@ __size_of_tmr_tick_init 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.
 __end_of_tagTxCmd AAA 0 CODE 0 text10 dist/default/production\Industrial_Safety.X.production.o
 _MFRC522_ToCard AAA 0 CODE 0 text25 dist/default/production\Industrial_Safety.X.production.o
 __end_of_tmr_tick_reload 1024 0 STRING 0 strings dist/default/production\Industrial_Safety.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o
+___int_sp 0 0 STACK 2 stack C:\Users\211934~3.000\AppData\Local\Temp\s8po.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -1051,8 +1051,8 @@ __Lintentry 8 0 CODE 0 intentry -
 __end_of_MFRC522_AntiColl 1D60 0 CODE 0 text24 dist/default/production\Industrial_Safety.X.production.o
 MFRC522_Rd@addr A6 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 __stringtab 1000 0 STRING 0 strings dist/default/production\Industrial_Safety.X.production.o
-_lcd_clr 2FB4 0 CODE 0 text21 dist/default/production\Industrial_Safety.X.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o
+_lcd_clr 2F98 0 CODE 0 text21 dist/default/production\Industrial_Safety.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\211934~3.000\AppData\Local\Temp\s8po.o
 __size_of_mfrc522SetBit 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
 __pdataBANK0 51 0 BANK0 1 dataBANK0 dist/default/production\Industrial_Safety.X.production.o
 __pdataBANK1 CF 0 BANK1 1 dataBANK1 dist/default/production\Industrial_Safety.X.production.o
@@ -1077,14 +1077,14 @@ __ptext10 6C4 0 CODE 0 text10 dist/default/production\Industrial_Safety.X.produc
 __ptext11 1518 0 CODE 0 text11 dist/default/production\Industrial_Safety.X.production.o
 __ptext12 1A22 0 CODE 0 text12 dist/default/production\Industrial_Safety.X.production.o
 __ptext13 1112 0 CODE 0 text13 dist/default/production\Industrial_Safety.X.production.o
-__ptext14 2FE6 0 CODE 0 text14 dist/default/production\Industrial_Safety.X.production.o
+__ptext14 2FCA 0 CODE 0 text14 dist/default/production\Industrial_Safety.X.production.o
 __ptext15 14B4 0 CODE 0 text15 dist/default/production\Industrial_Safety.X.production.o
 __ptext16 18E4 0 CODE 0 text16 dist/default/production\Industrial_Safety.X.production.o
 __ptext17 184E 0 CODE 0 text17 dist/default/production\Industrial_Safety.X.production.o
 __ptext18 115E 0 CODE 0 text18 dist/default/production\Industrial_Safety.X.production.o
 __ptext19 1732 0 CODE 0 text19 dist/default/production\Industrial_Safety.X.production.o
 __ptext20 F56 0 CODE 0 text20 dist/default/production\Industrial_Safety.X.production.o
-__ptext21 2FB4 0 CODE 0 text21 dist/default/production\Industrial_Safety.X.production.o
+__ptext21 2F98 0 CODE 0 text21 dist/default/production\Industrial_Safety.X.production.o
 __ptext22 1EAC 0 CODE 0 text22 dist/default/production\Industrial_Safety.X.production.o
 __ptext23 1B10 0 CODE 0 text23 dist/default/production\Industrial_Safety.X.production.o
 __ptext24 1C2A 0 CODE 0 text24 dist/default/production\Industrial_Safety.X.production.o
@@ -1095,7 +1095,7 @@ __ptext28 12A2 0 CODE 0 text28 dist/default/production\Industrial_Safety.X.produ
 __ptext29 1356 0 CODE 0 text29 dist/default/production\Industrial_Safety.X.production.o
 __ptext30 15E2 0 CODE 0 text30 dist/default/production\Industrial_Safety.X.production.o
 __ptext31 157C 0 CODE 0 text31 dist/default/production\Industrial_Safety.X.production.o
-__ptext32 2FD2 0 CODE 0 text32 dist/default/production\Industrial_Safety.X.production.o
+__ptext32 2FB6 0 CODE 0 text32 dist/default/production\Industrial_Safety.X.production.o
 __ptext33 D88 0 CODE 0 text33 dist/default/production\Industrial_Safety.X.production.o
 __ptext34 16BE 0 CODE 0 text34 dist/default/production\Industrial_Safety.X.production.o
 __ptext35 1982 0 CODE 0 text35 dist/default/production\Industrial_Safety.X.production.o
@@ -1116,13 +1116,13 @@ main@F1416 1A1 0 BANK3 1 dataBANK3 dist/default/production\Industrial_Safety.X.p
 main@F1418 D6 0 BANK1 1 dataBANK1 dist/default/production\Industrial_Safety.X.production.o
 MFRC522_Set_Bit@addr AD 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 MFRC522_Set_Bit@mask AB 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
-main@uidAsci 1C1 0 BANK3 1 cstackBANK3 dist/default/production\Industrial_Safety.X.production.o
-main@senha 1BB 0 BANK3 1 cstackBANK3 dist/default/production\Industrial_Safety.X.production.o
+main@uidAsci 1BB 0 BANK3 1 cstackBANK3 dist/default/production\Industrial_Safety.X.production.o
+main@senha 1C8 0 BANK3 1 cstackBANK3 dist/default/production\Industrial_Safety.X.production.o
 main@state 1DD 0 BANK3 1 cstackBANK3 dist/default/production\Industrial_Safety.X.production.o
-_spi_hardware_disable 10F6 0 CODE 0 text4 dist/default/production\Industrial_Safety.X.production.o
+_spi_hardware_disable 2FE4 0 CODE 0 text4 dist/default/production\Industrial_Safety.X.production.o
 mfrc522SetBit@end A8 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
-stackhi 0 0 ABS 0 - C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o
-stacklo 0 0 ABS 0 - C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o
+stackhi 0 0 ABS 0 - C:\Users\211934~3.000\AppData\Local\Temp\s8po.o
+stacklo 0 0 ABS 0 - C:\Users\211934~3.000\AppData\Local\Temp\s8po.o
 __size_of_mfrc522Iniciar 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
 _prs_detect 13F4 0 CODE 0 text7 dist/default/production\Industrial_Safety.X.production.o
 MFRC522_ToCard@sendLen B1 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
@@ -1134,8 +1134,8 @@ __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_2 0 0 ABS 0 - -
 __Lspace_3 0 0 ABS 0 - -
-_isr$1614 39 0 BANK0 1 cstackBANK0 dist/default/production\Industrial_Safety.X.production.o
-_isr$1615 3D 0 BANK0 1 cstackBANK0 dist/default/production\Industrial_Safety.X.production.o
+_isr$1615 39 0 BANK0 1 cstackBANK0 dist/default/production\Industrial_Safety.X.production.o
+_isr$1616 3D 0 BANK0 1 cstackBANK0 dist/default/production\Industrial_Safety.X.production.o
 MFRC522_ToCard@backData B2 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Safety.X.production.o
 __pbssCOMMON 7A 0 COMMON 1 bssCOMMON dist/default/production\Industrial_Safety.X.production.o
 _rfid_display 0 0 ABS 0 - dist/default/production\Industrial_Safety.X.production.o
@@ -1166,7 +1166,7 @@ spiSoftTxCmd@oper A0 0 BANK1 1 cstackBANK1 dist/default/production\Industrial_Sa
 __ptext1 11B2 0 CODE 0 text1 dist/default/production\Industrial_Safety.X.production.o
 __ptext2 1188 0 CODE 0 text2 dist/default/production\Industrial_Safety.X.production.o
 __ptext3 1452 0 CODE 0 text3 dist/default/production\Industrial_Safety.X.production.o
-__ptext4 10F6 0 CODE 0 text4 dist/default/production\Industrial_Safety.X.production.o
+__ptext4 2FE4 0 CODE 0 text4 dist/default/production\Industrial_Safety.X.production.o
 __ptext5 12DC 0 CODE 0 text5 dist/default/production\Industrial_Safety.X.production.o
 __ptext6 126A 0 CODE 0 text6 dist/default/production\Industrial_Safety.X.production.o
 __ptext7 13F4 0 CODE 0 text7 dist/default/production\Industrial_Safety.X.production.o
@@ -1286,7 +1286,7 @@ __end_of_spiSoftTxDat 1650 0 CODE 0 text30 dist/default/production\Industrial_Sa
 text1 0 8D9 11B2 15 2
 text2 0 8C4 1188 15 2
 text3 0 A29 1452 31 2
-text4 0 87B 10F6 E 2
+text4 0 17F2 2FE4 E 2
 text5 0 96E 12DC 1E 2
 text6 0 935 126A 1C 2
 text7 0 9FA 13F4 2F 2
@@ -1295,13 +1295,13 @@ text9 0 BDD 17BA 4A 2
 text11 0 A8C 1518 32 2
 text12 0 D11 1A22 77 2
 text13 0 889 1112 13 2
-text14 0 17F3 2FE6 D 2
+text14 0 17E5 2FCA D 2
 text15 0 A5A 14B4 32 2
 text16 0 C72 18E4 4F 2
 text17 0 C27 184E 4B 2
 text18 0 8AF 115E 15 2
 text19 0 B99 1732 44 2
-text21 0 17DA 2FB4 7 2
+text21 0 17CC 2F98 7 2
 text22 0 F56 1EAC AA 2
 text23 0 D88 1B10 8D 2
 text24 0 E15 1C2A 9B 2
@@ -1311,7 +1311,7 @@ text28 0 951 12A2 1D 2
 text29 0 9AB 1356 24 2
 text30 0 AF1 15E2 37 2
 text31 0 ABE 157C 33 2
-text32 0 17E9 2FD2 A 2
+text32 0 17DB 2FB6 A 2
 text34 0 B5F 16BE 3A 2
 text35 0 CC1 1982 50 2
 text36 0 EB0 1D60 A6 2
@@ -1324,8 +1324,8 @@ reset_vec 0 0 0 3 2
 idataBANK1 0 91C 1238 19 2
 idataBANK2 0 B28 1650 37 2
 idataBANK3 0 9CF 139E 2B 2
-strings 0 800 1000 76 2
+strings 0 800 1000 86 2
 dataBANK2 1 110 110 37 1
 dataBANK3 1 190 190 4E 1
-clrtext 0 17E1 2FC2 8 2
+clrtext 0 17D3 2FA6 8 2
 config 0 2007 400E 2 2

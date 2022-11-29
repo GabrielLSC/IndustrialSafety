@@ -26,7 +26,7 @@ void main (void)
  
     //Inicialização de variaveis, e funções  
     
-    int perigo = 100;
+    int perigo = 110;
     
     char state = 0;
    
@@ -98,7 +98,9 @@ void main (void)
                     lcd_print(0,0,"TAG :");
 
                     hex2Ascii(UID,uidAsci,6);
-                    lcd_print(0,0,uidAsci);
+                    
+                    lcd_print(0,0,"Gabriel Lacerda");
+//                    lcd_print(1,0,uidAsci);
 
                     delay_ms(5000);
 
@@ -179,8 +181,8 @@ void main (void)
                     lcd_clr();
                     state = 1;
                     break;
-
         }
+    }
         
         
         
@@ -218,7 +220,6 @@ void main (void)
 //            ++indice;
 //            indice % = 7 ;
 //        } 
-    }
-}    
+     
 
-
+}

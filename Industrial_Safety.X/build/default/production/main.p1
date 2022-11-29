@@ -355,9 +355,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _main ]
 [f ]
 "29
-[; ;main.c: 29:     int perigo = 100;
+[; ;main.c: 29:     int perigo = 110;
 [v _perigo `i ~T0 @X0 1 a ]
-[e = _perigo -> 100 `i ]
+[e = _perigo -> 110 `i ]
 "31
 [; ;main.c: 31:     char state = 0;
 [v _state `uc ~T0 @X0 1 a ]
@@ -561,211 +561,211 @@ Version 4.0 HI-TECH Software Intermediate Code
 "100
 [; ;main.c: 100:                     hex2Ascii(UID,uidAsci,6);
 [e ( _hex2Ascii (3 , , &U _UID &U _uidAsci -> -> 6 `i `uc ]
-"101
-[; ;main.c: 101:                     lcd_print(0,0,uidAsci);
-[e ( _lcd_print (3 , , -> -> 0 `i `uc -> -> 0 `i `uc -> &U _uidAsci `*Cuc ]
-"103
-[; ;main.c: 103:                     delay_ms(5000);
-[e ( _delay_ms (1 -> -> 5000 `i `ui ]
+"102
+[; ;main.c: 102:                     lcd_print(0,0,"Gabriel Lacerda");
+[e ( _lcd_print (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 6C ]
 "105
-[; ;main.c: 105:                     if(tag_false(UID, senha) == 0)
-[e $ ! == -> ( _tag_false (2 , &U _UID &U _senha `i -> 0 `i 150  ]
-"106
-[; ;main.c: 106:                     {
-{
+[; ;main.c: 105:                     delay_ms(5000);
+[e ( _delay_ms (1 -> -> 5000 `i `ui ]
 "107
-[; ;main.c: 107:                         state = 10;
-[e = _state -> -> 10 `i `uc ]
+[; ;main.c: 107:                     if(tag_false(UID, senha) == 0)
+[e $ ! == -> ( _tag_false (2 , &U _UID &U _senha `i -> 0 `i 150  ]
 "108
-[; ;main.c: 108:                         break;
-[e $U 143  ]
+[; ;main.c: 108:                     {
+{
 "109
-[; ;main.c: 109:                     }
+[; ;main.c: 109:                         state = 10;
+[e = _state -> -> 10 `i `uc ]
+"110
+[; ;main.c: 110:                         break;
+[e $U 143  ]
+"111
+[; ;main.c: 111:                     }
 }
 [e $U 151  ]
-"110
-[; ;main.c: 110:                     else
-[e :U 150 ]
-"111
-[; ;main.c: 111:                     {
-{
 "112
-[; ;main.c: 112:                         state = 11;
-[e = _state -> -> 11 `i `uc ]
+[; ;main.c: 112:                     else
+[e :U 150 ]
 "113
-[; ;main.c: 113:                         break;
-[e $U 143  ]
+[; ;main.c: 113:                     {
+{
 "114
-[; ;main.c: 114:                     }
+[; ;main.c: 114:                         state = 11;
+[e = _state -> -> 11 `i `uc ]
+"115
+[; ;main.c: 115:                         break;
+[e $U 143  ]
+"116
+[; ;main.c: 116:                     }
 }
 [e :U 151 ]
-"117
-[; ;main.c: 117:             case 10:
-[e :U 152 ]
-"118
-[; ;main.c: 118:                     lcd_clr();
-[e ( _lcd_clr ..  ]
 "119
-[; ;main.c: 119:                     lcd_print(0,5,"ACESSO");
-[e ( _lcd_print (3 , , -> -> 0 `i `uc -> -> 5 `i `uc :s 6C ]
+[; ;main.c: 119:             case 10:
+[e :U 152 ]
 "120
-[; ;main.c: 120:                     lcd_print(1,4,"LIBERADO");
-[e ( _lcd_print (3 , , -> -> 1 `i `uc -> -> 4 `i `uc :s 7C ]
+[; ;main.c: 120:                     lcd_clr();
+[e ( _lcd_clr ..  ]
 "121
-[; ;main.c: 121:                     delay_ms(2000);
-[e ( _delay_ms (1 -> -> 2000 `i `ui ]
+[; ;main.c: 121:                     lcd_print(0,5,"ACESSO");
+[e ( _lcd_print (3 , , -> -> 0 `i `uc -> -> 5 `i `uc :s 7C ]
 "122
-[; ;main.c: 122:                     lcd_clr();
-[e ( _lcd_clr ..  ]
+[; ;main.c: 122:                     lcd_print(1,4,"LIBERADO");
+[e ( _lcd_print (3 , , -> -> 1 `i `uc -> -> 4 `i `uc :s 8C ]
 "123
-[; ;main.c: 123:                     lcd_print(0,0,"MAQ. ENERGIZADA");
-[e ( _lcd_print (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 8C ]
+[; ;main.c: 123:                     delay_ms(2000);
+[e ( _delay_ms (1 -> -> 2000 `i `ui ]
 "124
-[; ;main.c: 124:                     state = 20;
-[e = _state -> -> 20 `i `uc ]
+[; ;main.c: 124:                     lcd_clr();
+[e ( _lcd_clr ..  ]
 "125
-[; ;main.c: 125:                     break;
+[; ;main.c: 125:                     lcd_print(0,0,"MAQ. ENERGIZADA");
+[e ( _lcd_print (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 9C ]
+"126
+[; ;main.c: 126:                     state = 20;
+[e = _state -> -> 20 `i `uc ]
+"127
+[; ;main.c: 127:                     break;
 [e $U 143  ]
-"129
-[; ;main.c: 129:             case 11:
-[e :U 153 ]
-"130
-[; ;main.c: 130:                     lcd_clr();
-[e ( _lcd_clr ..  ]
 "131
-[; ;main.c: 131:                     lcd_print(0,5,"ACESSO");
-[e ( _lcd_print (3 , , -> -> 0 `i `uc -> -> 5 `i `uc :s 9C ]
+[; ;main.c: 131:             case 11:
+[e :U 153 ]
 "132
-[; ;main.c: 132:                     lcd_print(1,5,"NEGADO");
-[e ( _lcd_print (3 , , -> -> 1 `i `uc -> -> 5 `i `uc :s 10C ]
-"133
-[; ;main.c: 133:                     delay_ms(5000);
-[e ( _delay_ms (1 -> -> 5000 `i `ui ]
-"134
-[; ;main.c: 134:                     lcd_clr();
+[; ;main.c: 132:                     lcd_clr();
 [e ( _lcd_clr ..  ]
+"133
+[; ;main.c: 133:                     lcd_print(0,5,"ACESSO");
+[e ( _lcd_print (3 , , -> -> 0 `i `uc -> -> 5 `i `uc :s 10C ]
+"134
+[; ;main.c: 134:                     lcd_print(1,5,"NEGADO");
+[e ( _lcd_print (3 , , -> -> 1 `i `uc -> -> 5 `i `uc :s 11C ]
 "135
-[; ;main.c: 135:                     state = 1;
-[e = _state -> -> 1 `i `uc ]
+[; ;main.c: 135:                     delay_ms(5000);
+[e ( _delay_ms (1 -> -> 5000 `i `ui ]
 "136
-[; ;main.c: 136:                     break;
-[e $U 143  ]
+[; ;main.c: 136:                     lcd_clr();
+[e ( _lcd_clr ..  ]
+"137
+[; ;main.c: 137:                     state = 1;
+[e = _state -> -> 1 `i `uc ]
 "138
-[; ;main.c: 138:             case 20:
-[e :U 154 ]
+[; ;main.c: 138:                     break;
+[e $U 143  ]
 "140
-[; ;main.c: 140:                     uts_trigger();
+[; ;main.c: 140:             case 20:
+[e :U 154 ]
+"142
+[; ;main.c: 142:                     uts_trigger();
 [e ( _uts_trigger ..  ]
-"141
-[; ;main.c: 141:                     dist = 0;
-[e = _dist -> -> 0 `i `l ]
 "143
-[; ;main.c: 143:                     if(prs_detect())
-[e $ ! != -> ( _prs_detect ..  `i -> 0 `i 155  ]
-"144
-[; ;main.c: 144:                     {
-{
+[; ;main.c: 143:                     dist = 0;
+[e = _dist -> -> 0 `i `l ]
 "145
-[; ;main.c: 145:                         state = 21;
-[e = _state -> -> 21 `i `uc ]
+[; ;main.c: 145:                     if(prs_detect())
+[e $ ! != -> ( _prs_detect ..  `i -> 0 `i 155  ]
 "146
-[; ;main.c: 146:                     }
+[; ;main.c: 146:                     {
+{
+"147
+[; ;main.c: 147:                         state = 21;
+[e = _state -> -> 21 `i `uc ]
+"148
+[; ;main.c: 148:                     }
 }
 [e $U 156  ]
-"147
-[; ;main.c: 147:                     else
-[e :U 155 ]
-"148
-[; ;main.c: 148:                     {
-{
 "149
-[; ;main.c: 149:                         state = 22;
-[e = _state -> -> 22 `i `uc ]
+[; ;main.c: 149:                     else
+[e :U 155 ]
 "150
-[; ;main.c: 150:                     }
+[; ;main.c: 150:                     {
+{
+"151
+[; ;main.c: 151:                         state = 22;
+[e = _state -> -> 22 `i `uc ]
+"152
+[; ;main.c: 152:                     }
 }
 [e :U 156 ]
-"152
-[; ;main.c: 152:                     if(dist > 1 && dist < perigo)
-[e $ ! && > _dist -> -> 1 `i `l < _dist -> _perigo `l 157  ]
-"153
-[; ;main.c: 153:                     {
-{
 "154
-[; ;main.c: 154:                         state = 23;
-[e = _state -> -> 23 `i `uc ]
+[; ;main.c: 154:                     if(dist > 1 && dist < perigo)
+[e $ ! && > _dist -> -> 1 `i `l < _dist -> _perigo `l 157  ]
 "155
-[; ;main.c: 155:                     }
+[; ;main.c: 155:                     {
+{
+"156
+[; ;main.c: 156:                         state = 23;
+[e = _state -> -> 23 `i `uc ]
+"157
+[; ;main.c: 157:                     }
 }
 [e :U 157 ]
-"157
-[; ;main.c: 157:                     break;
-[e $U 143  ]
 "159
-[; ;main.c: 159:             case 21:
-[e :U 158 ]
-"160
-[; ;main.c: 160:                     uts_trigger();
-[e ( _uts_trigger ..  ]
+[; ;main.c: 159:                     break;
+[e $U 143  ]
 "161
-[; ;main.c: 161:                     PORTCbits.RC1 = 0;
-[e = . . _PORTCbits 0 1 -> -> 0 `i `uc ]
+[; ;main.c: 161:             case 21:
+[e :U 158 ]
 "162
-[; ;main.c: 162:                     lcd_print(1,4, " ALERTA");
-[e ( _lcd_print (3 , , -> -> 1 `i `uc -> -> 4 `i `uc :s 11C ]
+[; ;main.c: 162:                     uts_trigger();
+[e ( _uts_trigger ..  ]
 "163
-[; ;main.c: 163:                     state = 20;
-[e = _state -> -> 20 `i `uc ]
-"164
-[; ;main.c: 164:                     break;
-[e $U 143  ]
-"166
-[; ;main.c: 166:             case 22:
-[e :U 159 ]
-"167
-[; ;main.c: 167:                     uts_trigger();
-[e ( _uts_trigger ..  ]
-"168
-[; ;main.c: 168:                     PORTCbits.RC1 = 0;
+[; ;main.c: 163:                     PORTCbits.RC1 = 0;
 [e = . . _PORTCbits 0 1 -> -> 0 `i `uc ]
-"169
-[; ;main.c: 169:                     lcd_print(1,4," LIVRE  ");
+"164
+[; ;main.c: 164:                     lcd_print(1,4, " ALERTA");
 [e ( _lcd_print (3 , , -> -> 1 `i `uc -> -> 4 `i `uc :s 12C ]
-"170
-[; ;main.c: 170:                     state = 20;
+"165
+[; ;main.c: 165:                     state = 20;
 [e = _state -> -> 20 `i `uc ]
-"171
-[; ;main.c: 171:                     break;
+"166
+[; ;main.c: 166:                     break;
 [e $U 143  ]
-"173
-[; ;main.c: 173:             case 23:
-[e :U 160 ]
-"174
-[; ;main.c: 174:                     uts_trigger();
+"168
+[; ;main.c: 168:             case 22:
+[e :U 159 ]
+"169
+[; ;main.c: 169:                     uts_trigger();
 [e ( _uts_trigger ..  ]
-"175
-[; ;main.c: 175:                     PORTCbits.RC1 = 1;
-[e = . . _PORTCbits 0 1 -> -> 1 `i `uc ]
-"176
-[; ;main.c: 176:                     lcd_clr();
-[e ( _lcd_clr ..  ]
-"177
-[; ;main.c: 177:                     lcd_print(1,5,"PARAR");
-[e ( _lcd_print (3 , , -> -> 1 `i `uc -> -> 5 `i `uc :s 13C ]
-"178
-[; ;main.c: 178:                     delay_ms(5000);
-[e ( _delay_ms (1 -> -> 5000 `i `ui ]
-"179
-[; ;main.c: 179:                     lcd_clr();
-[e ( _lcd_clr ..  ]
-"180
-[; ;main.c: 180:                     state = 1;
-[e = _state -> -> 1 `i `uc ]
-"181
-[; ;main.c: 181:                     break;
+"170
+[; ;main.c: 170:                     PORTCbits.RC1 = 0;
+[e = . . _PORTCbits 0 1 -> -> 0 `i `uc ]
+"171
+[; ;main.c: 171:                     lcd_print(1,4," LIVRE  ");
+[e ( _lcd_print (3 , , -> -> 1 `i `uc -> -> 4 `i `uc :s 13C ]
+"172
+[; ;main.c: 172:                     state = 20;
+[e = _state -> -> 20 `i `uc ]
+"173
+[; ;main.c: 173:                     break;
 [e $U 143  ]
+"175
+[; ;main.c: 175:             case 23:
+[e :U 160 ]
+"176
+[; ;main.c: 176:                     uts_trigger();
+[e ( _uts_trigger ..  ]
+"177
+[; ;main.c: 177:                     PORTCbits.RC1 = 1;
+[e = . . _PORTCbits 0 1 -> -> 1 `i `uc ]
+"178
+[; ;main.c: 178:                     lcd_clr();
+[e ( _lcd_clr ..  ]
+"179
+[; ;main.c: 179:                     lcd_print(1,5,"PARAR");
+[e ( _lcd_print (3 , , -> -> 1 `i `uc -> -> 5 `i `uc :s 14C ]
+"180
+[; ;main.c: 180:                     delay_ms(5000);
+[e ( _delay_ms (1 -> -> 5000 `i `ui ]
+"181
+[; ;main.c: 181:                     lcd_clr();
+[e ( _lcd_clr ..  ]
+"182
+[; ;main.c: 182:                     state = 1;
+[e = _state -> -> 1 `i `uc ]
 "183
-[; ;main.c: 183:         }
+[; ;main.c: 183:                     break;
+[e $U 143  ]
+"184
+[; ;main.c: 184:         }
 }
 [e $U 143  ]
 [e :U 144 ]
@@ -780,26 +780,27 @@ Version 4.0 HI-TECH Software Intermediate Code
  , $ -> 23 `i 160
  143 ]
 [e :U 143 ]
-"221
-[; ;main.c: 221:     }
+"185
+[; ;main.c: 185:     }
 }
 [e :U 140 ]
 [e $U 141  ]
 [e :U 142 ]
-"222
-[; ;main.c: 222: }
+"225
+[; ;main.c: 225: }
 [e :UE 139 ]
 }
+[a 6C 71 97 98 114 105 101 108 32 76 97 99 101 114 100 97 0 ]
 [a 2C 83 65 70 69 84 89 0 ]
-[a 13C 80 65 82 65 82 0 ]
+[a 14C 80 65 82 65 82 0 ]
 [a 4C 65 67 69 83 83 79 0 ]
-[a 6C 65 67 69 83 83 79 0 ]
-[a 9C 65 67 69 83 83 79 0 ]
+[a 7C 65 67 69 83 83 79 0 ]
+[a 10C 65 67 69 83 83 79 0 ]
 [a 3C 69 83 80 69 82 65 78 68 79 0 ]
-[a 7C 76 73 66 69 82 65 68 79 0 ]
-[a 10C 78 69 71 65 68 79 0 ]
+[a 8C 76 73 66 69 82 65 68 79 0 ]
+[a 11C 78 69 71 65 68 79 0 ]
 [a 1C 73 78 68 85 83 84 82 73 65 76 0 ]
-[a 11C 32 65 76 69 82 84 65 0 ]
-[a 8C 77 65 81 46 32 69 78 69 82 71 73 90 65 68 65 0 ]
+[a 12C 32 65 76 69 82 84 65 0 ]
+[a 9C 77 65 81 46 32 69 78 69 82 71 73 90 65 68 65 0 ]
 [a 5C 84 65 71 32 58 0 ]
-[a 12C 32 76 73 86 82 69 32 32 0 ]
+[a 13C 32 76 73 86 82 69 32 32 0 ]

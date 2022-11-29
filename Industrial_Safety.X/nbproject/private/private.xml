@@ -5,10 +5,7 @@
         <group>
             <file>file:/Z:/Industrial_safety/Industrial_Safety.X/main.c</file>
             <file>file:/Z:/Industrial_safety/Industrial_Safety.X/sensors.c</file>
-            <file>file:/Z:/Industrial_safety/Industrial_Safety.X/fsm_rfid.c</file>
-            <file>file:/Z:/Industrial_safety/Industrial_Safety.X/interrupt.c</file>
-            <file>file:/Z:/Industrial_safety/Industrial_Safety.X/sensors.h</file>
-            <file>file:/Z:/Industrial_safety/Industrial_Safety.X/spi.h</file>
+            <file>file:/Z:/Industrial_safety/Industrial_Safety.X/rfid.c</file>
         </group>
     </open-files>
 </project-private>

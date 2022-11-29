@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v2.00\pic\dat\en_msgs.txt \
   -cs -h+dist/default/production\Industrial_Safety.X.production.sym \
   --cmf=dist/default/production\Industrial_Safety.X.production.cmf -z \
-  -Q16F887 -oC:\Users\211934~3.000\AppData\Local\Temp\sdfg.2 \
+  -Q16F887 -oC:\Users\211934~3.000\AppData\Local\Temp\s8po.2 \
   -Mdist/default/production/Industrial_Safety.X.production.map -E1 -ver=XC8 \
   --acfsm=1493 -ASTACK=0147h-016fh -pstack=STACK -ACODE=00h-07FFhx4 \
   -ASTRCODE=00h-01FFFh -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 \
@@ -18,7 +18,7 @@ Linker command line:
   -pfunctab=ENTRY -ACONFIG=02007h-02008h -pconfig=CONFIG -DCONFIG=2 \
   -AIDLOC=02000h-02003h -pidloc=IDLOC -DIDLOC=2 -AEEDATA=00h-0FFh/02100h \
   -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 \
-  -DENTRY=2 -k C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o \
+  -DENTRY=2 -k C:\Users\211934~3.000\AppData\Local\Temp\s8po.o \
   dist/default/production\Industrial_Safety.X.production.o 
 
 Object code version is 3.11
@@ -28,7 +28,7 @@ Machine type is 16F887
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\211934~3.000\AppData\Local\Temp\sdfg.o
+C:\Users\211934~3.000\AppData\Local\Temp\s8po.o
                 end_init                             10       10        3        8       0
                 reset_vec                             0        0        3        0       0
                 config                             2007     2007        2     400E       0
@@ -39,7 +39,7 @@ dist/default/production\Industrial_Safety.X.production.o
                 text35                              CC1      CC1       50     1982       0
                 text34                              B5F      B5F       3A     16BE       0
                 text33                              6C4      6C4       E7        8       0
-                text32                             17E9     17E9        A     2FD2       0
+                text32                             17DB     17DB        A     2FB6       0
                 text31                              ABE      ABE       33     157C       0
                 text30                              AF1      AF1       37     15E2       0
                 text29                              9AB      9AB       24     1356       0
@@ -50,14 +50,14 @@ dist/default/production\Industrial_Safety.X.production.o
                 text24                              E15      E15       9B     1C2A       0
                 text23                              D88      D88       8D     1B10       0
                 text22                              F56      F56       AA     1EAC       0
-                text21                             17DA     17DA        7     2FB4       0
+                text21                             17CC     17CC        7     2F98       0
                 text20                              7AB      7AB       50        8       0
                 text19                              B99      B99       44     1732       0
                 text18                              8AF      8AF       15     115E       0
                 text17                              C27      C27       4B     184E       0
                 text16                              C72      C72       4F     18E4       0
                 text15                              A5A      A5A       32     14B4       0
-                text14                             17F3     17F3        D     2FE6       0
+                text14                             17E5     17E5        D     2FCA       0
                 text13                              889      889       13     1112       0
                 text12                              D11      D11       77     1A22       0
                 text11                              A8C      A8C       32     1518       0
@@ -67,7 +67,7 @@ dist/default/production\Industrial_Safety.X.production.o
                 text7                               9FA      9FA       2F     13F4       0
                 text6                               935      935       1C     126A       0
                 text5                               96E      96E       1E     12DC       0
-                text4                               87B      87B        E     10F6       0
+                text4                              17F2     17F2        E     2FE4       0
                 text3                               A29      A29       31     1452       0
                 text2                               8C4      8C4       15     1188       0
                 text1                               8D9      8D9       15     11B2       0
@@ -76,7 +76,7 @@ dist/default/production\Industrial_Safety.X.production.o
                 cstackCOMMON                         70       70        A       70       1
                 cstackBANK1                          A0       A0       2F       A0       1
                 cstackBANK3                         1BB      1BB       23      190       1
-                clrtext                            17E1     17E1        8     2FC2       0
+                clrtext                            17D3     17D3        8     2FA6       0
                 inittext                            89C      89C       13     1138       0
                 dataBANK2                           110      110       37      110       1
                 dataBANK3                           190      190       2B      190       1
@@ -85,7 +85,7 @@ dist/default/production\Industrial_Safety.X.production.o
                 dataBANK0                            51       51        5       20       1
                 bssBANK0                             41       41       10       20       1
                 bssCOMMON                            7A       7A        4       70       1
-                strings                             800      800       76     1000       0
+                strings                             800      800       86     1000       0
                 idataBANK3                          9CF      9CF       2B     139E       0
                 idataBANK2                          B28      B28       37     1650       0
                 idataBANK1                          91C      91C       19     1238       0
@@ -103,7 +103,7 @@ TOTAL           Name                               Link     Load   Length     Sp
                 text35                              CC1      CC1       50         0
                 text34                              B5F      B5F       3A         0
                 text33                              6C4      6C4       E7         0
-                text32                             17E9     17E9        A         0
+                text32                             17DB     17DB        A         0
                 text31                              ABE      ABE       33         0
                 text30                              AF1      AF1       37         0
                 text29                              9AB      9AB       24         0
@@ -114,14 +114,14 @@ TOTAL           Name                               Link     Load   Length     Sp
                 text24                              E15      E15       9B         0
                 text23                              D88      D88       8D         0
                 text22                              F56      F56       AA         0
-                text21                             17DA     17DA        7         0
+                text21                             17CC     17CC        7         0
                 text20                              7AB      7AB       50         0
                 text19                              B99      B99       44         0
                 text18                              8AF      8AF       15         0
                 text17                              C27      C27       4B         0
                 text16                              C72      C72       4F         0
                 text15                              A5A      A5A       32         0
-                text14                             17F3     17F3        D         0
+                text14                             17E5     17E5        D         0
                 text13                              889      889       13         0
                 text12                              D11      D11       77         0
                 text11                              A8C      A8C       32         0
@@ -131,12 +131,12 @@ TOTAL           Name                               Link     Load   Length     Sp
                 text7                               9FA      9FA       2F         0
                 text6                               935      935       1C         0
                 text5                               96E      96E       1E         0
-                text4                               87B      87B        E         0
+                text4                              17F2     17F2        E         0
                 text3                               A29      A29       31         0
                 text2                               8C4      8C4       15         0
                 text1                               8D9      8D9       15         0
                 maintext                             5F       5F      303         0
-                clrtext                            17E1     17E1        8         0
+                clrtext                            17D3     17D3        8         0
                 inittext                            89C      89C       13         0
                 idataBANK3                          9CF      9CF       2B         0
                 idataBANK2                          B28      B28       37         0
@@ -146,7 +146,7 @@ TOTAL           Name                               Link     Load   Length     Sp
         CLASS   STRCODE        
 
         CLASS   STRING         
-                strings                             800      800       76         0
+                strings                             800      800       86         0
 
         CLASS   CONST          
 
@@ -204,8 +204,7 @@ SEGMENTS        Name                           Load    Length   Top    Selector 
                 cstackBANK1                    0000A0  00004C  0000EC        A0       1  BANK1       1
                 dataBANK2                      000110  000037  000147       110       1  BANK2       1
                 dataBANK3                      000190  00004E  0001DE       190       1  BANK3       1
-                strings                        000800  000076  000876      1000       0  STRING      2
-                text4                          00087B  00000E  000889      10F6       0  CODE        2
+                strings                        000800  000086  000886      1000       0  STRING      2
                 text13                         000889  000013  00089C      1112       0  CODE        2
                 inittext                       00089C  000013  0008AF      1138       0  CODE        2
                 text18                         0008AF  000015  0008C4      115E       0  CODE        2
@@ -238,10 +237,11 @@ SEGMENTS        Name                           Load    Length   Top    Selector 
                 text24                         000E15  00009B  000EB0      1C2A       0  CODE        2
                 text36                         000EB0  0000A6  000F56      1D60       0  CODE        2
                 text22                         000F56  0000AA  001000      1EAC       0  CODE        2
-                text21                         0017DA  000007  0017E1      2FB4       0  CODE        2
-                clrtext                        0017E1  000008  0017E9      2FC2       0  CODE        2
-                text32                         0017E9  00000A  0017F3      2FD2       0  CODE        2
-                text14                         0017F3  00000D  001800      2FE6       0  CODE        2
+                text21                         0017CC  000007  0017D3      2F98       0  CODE        2
+                clrtext                        0017D3  000008  0017DB      2FA6       0  CODE        2
+                text32                         0017DB  00000A  0017E5      2FB6       0  CODE        2
+                text14                         0017E5  00000D  0017F2      2FCA       0  CODE        2
+                text4                          0017F2  00000E  001800      2FE4       0  CODE        2
                 config                         002007  000002  002009      400E       0  CONFIG      2
 
 
@@ -253,17 +253,17 @@ UNUSED ADDRESS RANGES
         BANK2            0147-016F             29           1
         BANK3            01DE-01EF             12           1
         CODE             0003-0003              1           2
-                         0876-087A              5
-                         1000-17D9            7DA
+                         0886-0888              3
+                         1000-17CB            7CC
                          1800-1FFF            800
         CONST            0003-0003              1           2
-                         0876-087A              5
-                         1000-17D9            100
+                         0886-0888              3
+                         1000-17CB            100
                          1800-1FFF            100
         EEDATA           2100-21FF            100           2
         ENTRY            0003-0003              1           2
-                         0876-087A              5
-                         1000-17D9            100
+                         0886-0888              3
+                         1000-17CB            100
                          1800-1FFF            100
         IDLOC            2000-2003              4           2
         RAM              0056-006F             1A           1
@@ -276,12 +276,12 @@ UNUSED ADDRESS RANGES
         SFR3             0180-018F             10           1
         STACK            0147-016F             29           1
         STRCODE          0003-0003              1           2
-                         0876-087A              5
-                         1000-17D9            7DA
+                         0886-0888              3
+                         1000-17CB            7CC
                          1800-1FFF            800
         STRING           0003-0003              1           2
-                         0876-087A              5
-                         1000-17D9            100
+                         0886-0888              3
+                         1000-17CB            100
                          1800-1FFF            100
 
                                   Symbol Table
@@ -481,14 +481,14 @@ __end_of__stringtab            strings      0810
 __end_of_delay_ms              text8        09AB
 __end_of_hex2Ascii             text23       0E15
 __end_of_isr                   text33       07AB
-__end_of_lcd_clr               text21       17E1
+__end_of_lcd_clr               text21       17D3
 __end_of_lcd_data              text19       0BDD
 __end_of_lcd_init              text20       07FB
 __end_of_lcd_inst              text22       1000
 __end_of_lcd_lincol            text18       08C4
 __end_of_lcd_print             text17       0C72
 __end_of_main                  maintext     0362
-__end_of_mfrc522AntOn          text14       1800
+__end_of_mfrc522AntOn          text14       17F2
 __end_of_mfrc522ClrBit         text11       0ABE
 __end_of_mfrc522Iniciar        text12       0D88
 __end_of_mfrc522Rst            text13       089C
@@ -496,12 +496,12 @@ __end_of_mfrc522SetBit         text15       0A8C
 __end_of_procura_tag           text9        0C27
 __end_of_prs_detect            text7        0A29
 __end_of_sensors_init          text6        0951
-__end_of_spiSoftClk            text32       17F3
+__end_of_spiSoftClk            text32       17E5
 __end_of_spiSoftIniciar        text5        098C
 __end_of_spiSoftRxDat          text31       0AF1
 __end_of_spiSoftTxCmd          text16       0CC1
 __end_of_spiSoftTxDat          text30       0B28
-__end_of_spi_hardware_disable  text4        0889
+__end_of_spi_hardware_disable  text4        1800
 __end_of_tagTxCmd              text10       0555
 __end_of_tag_false             text3        0A5A
 __end_of_tmr_tick_init         text2        08D9
@@ -532,7 +532,7 @@ __ptext10                      text10       0362
 __ptext11                      text11       0A8C
 __ptext12                      text12       0D11
 __ptext13                      text13       0889
-__ptext14                      text14       17F3
+__ptext14                      text14       17E5
 __ptext15                      text15       0A5A
 __ptext16                      text16       0C72
 __ptext17                      text17       0C27
@@ -540,7 +540,7 @@ __ptext18                      text18       08AF
 __ptext19                      text19       0B99
 __ptext2                       text2        08C4
 __ptext20                      text20       07AB
-__ptext21                      text21       17DA
+__ptext21                      text21       17CC
 __ptext22                      text22       0F56
 __ptext23                      text23       0D88
 __ptext24                      text24       0E15
@@ -552,12 +552,12 @@ __ptext29                      text29       09AB
 __ptext3                       text3        0A29
 __ptext30                      text30       0AF1
 __ptext31                      text31       0ABE
-__ptext32                      text32       17E9
+__ptext32                      text32       17DB
 __ptext33                      text33       06C4
 __ptext34                      text34       0B5F
 __ptext35                      text35       0CC1
 __ptext36                      text36       0EB0
-__ptext4                       text4        087B
+__ptext4                       text4        17F2
 __ptext5                       text5        096E
 __ptext6                       text6        0935
 __ptext7                       text7        09FA
@@ -606,9 +606,9 @@ _delay_ms                      text8        098C
 _dist                          bssBANK1     00E8
 _hex2Ascii                     text23       0D88
 _isr                           text33       06C4
-_isr$1614                      cstackBANK0  0039
-_isr$1615                      cstackBANK0  003D
-_lcd_clr                       text21       17DA
+_isr$1615                      cstackBANK0  0039
+_isr$1616                      cstackBANK0  003D
+_lcd_clr                       text21       17CC
 _lcd_data                      text19       0B99
 _lcd_init                      text20       07AB
 _lcd_inst                      text22       0F56
@@ -616,7 +616,7 @@ _lcd_lincol                    text18       08AF
 _lcd_print                     text17       0C27
 _main                          maintext     005F
 _matEeprom                     dataBANK2    0110
-_mfrc522AntOn                  text14       17F3
+_mfrc522AntOn                  text14       17E5
 _mfrc522ClrBit                 text11       0A8C
 _mfrc522Iniciar                text12       0D11
 _mfrc522Rst                    text13       0889
@@ -629,12 +629,12 @@ _rfid_display_wait             (abs)        0000
 _rfid_read                     (abs)        0000
 _rfid_read_wait                (abs)        0000
 _sensors_init                  text6        0935
-_spiSoftClk                    text32       17E9
+_spiSoftClk                    text32       17DB
 _spiSoftIniciar                text5        096E
 _spiSoftRxDat                  text31       0ABE
 _spiSoftTxCmd                  text16       0C72
 _spiSoftTxDat                  text30       0AF1
-_spi_hardware_disable          text4        087B
+_spi_hardware_disable          text4        17F2
 _t_sensor                      bssBANK0     004D
 _tagTxCmd                      text10       0362
 _tag_false                     text3        0A29
@@ -646,7 +646,7 @@ _uid                           bssBANK0     004F
 _uidAsci                       dataBANK3    01AE
 _uts_trigger                   text1        08D9
 btemp                          (abs)        007E
-clear_ram0                     clrtext      17E1
+clear_ram0                     clrtext      17D3
 delay_ms@t                     cstackBANK1  00A0
 end_of_initialization          cinit        005B
 hex2Ascii@a                    cstackBANK1  00A9
@@ -680,10 +680,10 @@ main@F1418                     dataBANK1    00D6
 main@TAG                       cstackBANK3  01CE
 main@UID                       cstackBANK3  01D3
 main@perigo                    cstackBANK3  01DA
-main@senha                     cstackBANK3  01BB
+main@senha                     cstackBANK3  01C8
 main@state                     cstackBANK3  01DD
 main@uid                       cstackBANK3  01DC
-main@uidAsci                   cstackBANK3  01C1
+main@uidAsci                   cstackBANK3  01BB
 mfrc522ClrBit@end              cstackBANK1  00A8
 mfrc522ClrBit@lido             cstackBANK1  00A9
 mfrc522ClrBit@mascara          cstackBANK1  00A6
@@ -737,9 +737,9 @@ FUNCTION INFORMATION:
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
-  uidAsci        13    6[BANK3 ] unsigned char [13]
+  uidAsci        13    0[BANK3 ] unsigned char [13]
   UID             7   24[BANK3 ] unsigned char [7]
-  senha           6    0[BANK3 ] unsigned char [6]
+  senha           6   13[BANK3 ] unsigned char [6]
   TAG             5   19[BANK3 ] unsigned char [5]
   perigo          2   31[BANK3 ] int 
   state           1   34[BANK3 ] unsigned char 
@@ -1320,11 +1320,11 @@ Total ram usage:        6 bytes
   lin             1    wreg     unsigned char 
   col             1    6[BANK1 ] unsigned char 
   str             2    7[BANK1 ] PTR const unsigned char 
-		 -> uidAsci(13), STR_15(2), STR_14(2), STR_13(6), 
-		 -> STR_12(9), STR_11(8), STR_10(7), STR_9(7), 
-		 -> STR_8(16), STR_7(9), STR_6(7), STR_5(6), 
-		 -> STR_4(7), STR_3(10), STR_2(7), STR_1(11), 
-		 -> main@uidAsci(13), 
+		 -> uidAsci(13), STR_16(2), STR_15(2), STR_14(6), 
+		 -> STR_13(9), STR_12(8), STR_11(7), STR_10(7), 
+		 -> STR_9(16), STR_8(9), STR_7(7), STR_6(16), 
+		 -> STR_5(6), STR_4(7), STR_3(10), STR_2(7), 
+		 -> STR_1(11), 
  Auto vars:     Size  Location     Type
   lin             1   11[BANK1 ] unsigned char 
   pos             1   10[BANK1 ] unsigned char 
@@ -2020,7 +2020,7 @@ rfid.c
 		_MFRC522_Wr    		CODE           	0951	0000	30
 		_MFRC522_AntiColl		CODE           	0E15	0000	156
 		_mfrc522Rst    		CODE           	0889	0000	20
-		_mfrc522AntOn  		CODE           	17F3	0000	14
+		_mfrc522AntOn  		CODE           	17E5	0000	14
 		_MFRC522_Clear_Bit		CODE           	0904	0000	25
 		_MFRC522_ToCard		CODE           	0555	0000	368
 		_hex2Ascii     		CODE           	0D88	0000	142
@@ -2038,12 +2038,12 @@ C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul32.c
 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul32.c estimated size: 81
 
 spi.c
-		_spiSoftClk    		CODE           	17E9	0000	11
+		_spiSoftClk    		CODE           	17DB	0000	11
 		_spiSoftTxCmd  		CODE           	0C72	0000	80
 		_spiSoftRxDat  		CODE           	0ABE	0000	52
 		_spiSoftTxDat  		CODE           	0AF1	0000	56
 		_spiSoftIniciar		CODE           	096E	0000	31
-		_spi_hardware_disable		CODE           	087B	0000	15
+		_spi_hardware_disable		CODE           	17F2	0000	15
 
 spi.c estimated size: 245
 
@@ -2062,7 +2062,7 @@ shared estimated size: 90
 lcd.c
 		_lcd_data      		CODE           	0B99	0000	69
 		_lcd_lincol    		CODE           	08AF	0000	22
-		_lcd_clr       		CODE           	17DA	0000	8
+		_lcd_clr       		CODE           	17CC	0000	8
 		_lcd_print     		CODE           	0C27	0000	76
 		_lcd_inst      		CODE           	0F56	0000	171
 		_lcd_init      		CODE           	07AB	0000	81
